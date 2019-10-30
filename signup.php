@@ -3,27 +3,22 @@
     <head>
         <title>signup</title>
     </head>
-    <style>
-        input[type=text], submit {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 7px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-        
-    </style>
-
     <body>
         <div class="container">
-            <div class="header">
-                <h2>signup</h2>
+            <div class="header">   
+                <h2 align="center">Sign Up</h2>          
             </div>
             <form align="center" action="signup.php" method="post">
                 <div>
                     <label for="username">Username : </label>
+                    <input type="text" name="username" required>
+                </div>
+                <div>
+                    <label for="firstname">firstname : </label>
+                    <input type="text" name="username" required>
+                </div>
+                <div>
+                    <label for="last name">last name : </label>
                     <input type="text" name="username" required>
                 </div>
                 <div>
@@ -38,7 +33,7 @@
                     <input type="text" name="password_2" required>
                 </div>
                 <button type="submit" name="signup">Sign up</button>
-                <p>already a user<a href="login.php"><b>Log Sign Up here</b></a></p>
+                <p>already a user<a href="login.php"><br>Log In</br></a></p>
             </form>
         </div>
     </body>

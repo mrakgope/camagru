@@ -4,16 +4,11 @@
         <title>Login</title>
     </head>
     <style>
-        div {
-            padding : 5px;
-            border-radius: 10px
-        }
-       
     </style>
     <body>
         <div class="container">
             <div class="header">
-                <h2>login</h2>
+            <h2 align="center">Log in</h2>               
             </div>
             <form align="center" action="login.php" method="post">
                 <div>
@@ -25,7 +20,8 @@
                     <input type="text" name="Password_1" required>
                 </div>
                 <button type="submit" name="login_user">Log In</button>
-                <p>Not a User<a href="Signup.php"><b>Log Sign Up here</b></a></p>
+                <p>Not a User?<a href="Signup.php"><br>Sign Up</br></a></p>
+                <p>Forgot Password?<a href="resetpass.php"><br>Reset Password</br></a></p>
             </form>
         </div>
     </body>
